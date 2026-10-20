@@ -1,0 +1,12 @@
+[build]
+  publish = "wok"
+
+[[redirects]]
+  from = "/"
+  to = "/v3-b-minimal.html"
+  status = 200
+
+[[redirects]]
+  from = "/wok/v3-b-minimal.html"
+  to = "/"
+  status = 301
